@@ -25,19 +25,29 @@
 >PRIVACY_POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
 >UBUNTU_CODENAME=noble
 >LOGO=ubuntu-logo
-```
+>```
 
 > ```bash
 > docker exec ossp-container git --version
 > ```
 >* Explanation of commandline and your output
+>```bash
+>git version 2.43.0
+>```
+
 
 > ```bash
 > docker exec ossp-container python3 --version
 > ```
 >* Explanation of commandline and your output
+> ```bash
+> Python 3.12.3
+> ```
 
 > ```bash
 > docker inspect --format="{{ .HostConfig.Binds }}" ossp-container
 > ```
 >* Explanation of commandline and your output
+> ```bash
+> [./ossp_host_dir:/mnt/ossp_container_dir]
+> ```
