@@ -9,3 +9,4 @@
 > ```bash
 > docker exec <your container> cat /etc/os-release
 > ```
+* Explanation of commandline and your output
