@@ -11,6 +11,7 @@
 > docker exec ossp-container cat /etc/os-release
 > ```
 >* Explanation of commandline and your output
+>  This is a command that outputs the contents of the /etc/os-release file inside a Docker container named ossp-container, which contains the version and distribution information of the Linux operating system.
 >```bash
 >PRETTY_NAME="Ubuntu 24.04.1 LTS"
 >NAME="Ubuntu"
