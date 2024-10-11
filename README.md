@@ -12,7 +12,7 @@
 > ```
 >* Explanation of commandline and your output
 >  
->  This is a command that outputs the contents of the /etc/os-release file inside a Docker container named ossp-container, which contains the version and distribution information of the Linux operating system.
+>>  This is a command that outputs the contents of the /etc/os-release file inside a Docker container named ossp-container, which contains the version and distribution information of the Linux operating system.
 >```bash
 >PRETTY_NAME="Ubuntu 24.04.1 LTS"
 >NAME="Ubuntu"
@@ -34,7 +34,7 @@
 > ```
 >* Explanation of commandline and your output
 >  
->  This is a command that checks whether Git is installed in the Docker container named ossp-container, and if it is installed, it outputs the version information.
+>>  This is a command that checks whether Git is installed in the Docker container named ossp-container, and if it is installed, it outputs the version information.
 >  
 >```bash
 >git version 2.43.0
@@ -46,7 +46,7 @@
 > ```
 >* Explanation of commandline and your output
 >  
->  This is a command that checks whether Python 3 is installed in the Docker container named ossp-container, and if it is installed, it outputs the version information.
+>>  This is a command that checks whether Python 3 is installed in the Docker container named ossp-container, and if it is installed, it outputs the version information.
 >  
 > ```bash
 > Python 3.12.3
@@ -57,7 +57,7 @@
 > ```
 >* Explanation of commandline and your output
 >
-> > This is a command that outputs the information about the files or directories bound to the host in the Docker container named ossp-container.
+>> This is a command that outputs the information about the files or directories bound to the host in the Docker container named ossp-container.
 > 
 > ```bash
 > [./ossp_host_dir:/mnt/ossp_container_dir]
