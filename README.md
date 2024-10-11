@@ -4,7 +4,12 @@
 * Link of you repository
   
 > https://github.com/hecarimday/SWE_2021_41_2024_2_week_4
-* Description of your code 
+* Description of your code
+To write this code, I first considered the cases where a number would not be a happy number. Initially, I thought that all numbers would inevitably be happy numbers, but after calculating them by hand, I realized that unhappy numbers enter an infinite loop by repeating the same digits.
+
+Therefore, I implemented a process where the input number is taken, and the sum of the squares of its digits is calculated and stored in a set called look. This way, each time a new number is generated, I can check if it is already in the set. If it exists, I consider it to have entered an infinite loop and return False.
+
+On the other hand, if the number reaches 1 without entering an infinite loop, it is considered a happy number, and I return True.
 ---
 ## Week 5 Assignment
 > ```bash
