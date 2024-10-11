@@ -45,6 +45,9 @@
 > docker exec ossp-container python3 --version
 > ```
 >* Explanation of commandline and your output
+>  
+>  This is a command that checks whether Python 3 is installed in the Docker container named ossp-container, and if it is installed, it outputs the version information.
+>  
 > ```bash
 > Python 3.12.3
 > ```
