@@ -33,6 +33,9 @@
 > docker exec ossp-container git --version
 > ```
 >* Explanation of commandline and your output
+>  
+>  This is a command that checks whether Git is installed in the Docker container named ossp-container, and if it is installed, it outputs the version information.
+>  
 >```bash
 >git version 2.43.0
 >```
