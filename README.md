@@ -6,6 +6,5 @@
 * Description of your code 
 ---
 ## Week 5 Assignment
-> ```bash
-  docker exec <your container> cat /etc/os-release
+> ```bash docker exec <your container> cat /etc/os-release
   ```
