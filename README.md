@@ -7,21 +7,21 @@
 ---
 ## Week 5 Assignment
 > ```bash
-> docker exec <your container> cat /etc/os-release
+> docker exec ossp-container cat /etc/os-release
 > ```
 >* Explanation of commandline and your output
 
 > ```bash
-> docker exec <your container> git --version
+> docker exec ossp-container git --version
 > ```
 >* Explanation of commandline and your output
 
 > ```bash
-> docker exec <your container> python3 --version
+> docker exec ossp-container python3 --version
 > ```
 >* Explanation of commandline and your output
 
 > ```bash
-> docker inspect --format="{{ .HostConfig.Binds }}" <container_name>
+> docker inspect --format="{{ .HostConfig.Binds }}" ossp-container
 > ```
 >* Explanation of commandline and your output
