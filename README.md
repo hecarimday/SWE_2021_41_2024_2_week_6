@@ -6,5 +6,7 @@
 * Description of your code 
 ---
 ## Week 5 Assignment
-> '''python
+>
+```python
   docker exec <your container> cat /etc/os-release
+```
