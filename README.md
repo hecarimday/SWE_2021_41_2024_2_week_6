@@ -7,6 +7,6 @@
 ---
 ## Week 5 Assignment
 >
-```python
-  docker exec <your container> cat /etc/os-release
+```bash
+docker exec <your container> cat /etc/os-release
 ```
