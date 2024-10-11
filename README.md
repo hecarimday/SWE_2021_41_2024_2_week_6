@@ -56,6 +56,10 @@
 > docker inspect --format="{{ .HostConfig.Binds }}" ossp-container
 > ```
 >* Explanation of commandline and your output
+>
+> > This is a command that outputs the information about the files or directories bound to the host in the Docker container named ossp-container.
+> 
 > ```bash
 > [./ossp_host_dir:/mnt/ossp_container_dir]
 > ```
+
