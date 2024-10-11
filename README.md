@@ -2,19 +2,7 @@
 ---
 ## Week 4 Assignment
 * Link of you repository
-```python
-def isHappy(n):
-  look = set()
-  while n not in look and n != 1:
-    look.add(n)
-    arr = [(int(m)) ** 2 for m in str(n)]
-    n = sum(arr)
-
-  if n == 1:
-    return True
-  else:
-    return False
-```
+https://github.com/hecarimday/SWE_2021_41_2024_2_week_4
 * Description of your code 
 ---
 ## Week 5 Assignment
